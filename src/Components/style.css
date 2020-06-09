@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f5f8fa;
+}
+
+.App {
+  width: 100%;
+  max-width: 700px;
+  margin: 40px auto 0;
+  padding: 10px 20px;
+}
+
+.logo {
+  max-width: 200px;
+  margin: 0 auto;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px 0 0;
+  text-transform: uppercase;
+}
+
+.data-brazil ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.data-brazil ul li {
+  background-color: #20d1ac;
+  padding: 20px 16px;
+  margin: 10px 0;
+  font-size: 22px;
+  line-height: 1;
+  letter-spacing: -.65px;
+  color: rgba(255,255,255);
+  border-radius: 10px;
+  width: 24%;
+  text-align: right;
+}
+@media (max-width: 780px) {
+  .data-brazil ul li {
+    width: 49%;
+    margin: 10px 0 0;
+  }
+}
+.data-brazil ul li:nth-child(2) {
+  background-color: #ffa726;
+}
+.data-brazil ul li:nth-child(3) {
+  background-color: #29b6f6;
+}
+.data-brazil ul li:nth-child(4) {
+  background-color: #9A36BB;
+}
+.data-brazil ul li span {
+  height: 30px;
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: right;
+}
+.data-brazil ul li p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  padding: 30px 30px 10px;
+  text-align: center;
+  font-size: 20px;
+}
+h2 {
+  padding: 10px;
+}
+select {
+  width: 100%;
+  height: 40px;
+  padding: 0 30px;
+  background: none;
+  border: 1px solid #20d1ac;
+  border-radius: 30px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align-last:center;
+  font-weight: bold;
+}
+select option {
+  color: #333;
+}
+
+h3 {
+  text-align: center;
+  margin: 0 0 20px;
+  font-size: 24px;
+}
+
+.data-state {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.data-state li {
+  background-color: #20d1ac;
+  padding: 20px 16px;
+  margin: 10px 0;
+  font-size: 42px;
+  line-height: 1;
+  letter-spacing: -.65px;
+  color: rgba(255,255,255);
+  border-radius: 10px;
+  width: 49%;
+}
+@media (max-width: 780px) {
+  .data-state li {
+    width: 100%;
+  }
+}
+.data-state li:last-child {
+  background-color: #9A36BB;
+}
+
+.data-state li span {
+  display: block;
+  text-align: center;
+}
+.data-state li span.emoji {
+  display: inline;
+}
+.data-state li span.number {
+  padding-bottom: 20px;
+}
+.data-state li span.title {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+section.text {
+  margin: 20px 0;
+}
+.text section {
+  margin-bottom: 10px;
+  border: 1px solid #20d1ac;
+}
+.text section .title {
+  color: #20d1ac;
+  border-bottom: 1px solid #20d1ac;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.text section.active .title,
+.text section .title:hover {
+  color: #f5f8fa;
+  background-color: #20d1ac;
+}
+.text section .title h3 {
+  text-align: left;
+  margin: 0;
+}
+.text section .content {
+  padding: 0 20px;
+  line-height: 1.75;
+  transition: max-height 1s;
+  max-height: 0;
+  overflow: hidden;
+}
+.text section.active .content {
+  max-height: 9999px;
+}
+
+.text section .content p,
+.text section .content ul {
+  padding: 10px 0;
+}
+.text section .content a {
+  color: #20a8d1;
+  font-size: 15px;
+}
+.text .source {
+  font-size: 13px;
+  color: #888;
+  margin: 20px 0;
+}
+.text .copyright {
+  font-size: 13px;
+  text-align: center;
+  color: #999;
+}

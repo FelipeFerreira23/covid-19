@@ -1,68 +1,58 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1  align="center">🔰 COVID-19 Brasil</h1>
 
-## Available Scripts
+<p  align="center">Projeto <strong>COVID-19 Brasil 😷</strong></p>
 
-In the project directory, you can run:
+Lista o número de casos de COVID-19 no Brasil de acordo com a OMS e também faz a listagem de casos por todos os estados brasileiros.
 
-### `yarn start`
+![](/src/assets/screenshot.png)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+> **Objetivo**: Praticar o conhecimento em ReactJS consumindo informações de API externa
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## 🚀 Instalação e execução
 
-### `yarn test`
+Se precisar de ajuda para fazer um clone, esse [tutorial aqui](https://help.github.com/pt/github/creating-cloning-and-archiving-repositories/cloning-a-repository) vai te ajudar 😎
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Abra o seu terminal.
 
-### `yarn build`
+2. Selecione o local onde deseja ter o código no seu computador.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Faça um clone do repositório: 
+`git clone https://github.com/FelipeFerreira23/covid-19`;
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+4. Entre na pasta pelo terminal: `cd covid-19`;
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Rode `yarn` para instalar as dependências do projeto;
 
-### `yarn eject`
+6. Rode `yarn start` para iniciar o servidor de desenvolvimento.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🤔 Como contribuir
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> Se quiser contribuir para esse repositório, seja corrigindo algum problema, adicionando comentários ou melhorando a documentação, você pode seguir esse tutorial abaixo:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Faça [um fork](https://help.github.com/pt/github/getting-started-with-github/fork-a-repo) desse repositório;
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Entre no seu perfil no GitHub e faça um clone do repositório que você fez um *fork*;
 
-## Learn More
+- Crie uma *branch* com a sua alteração: `git checkout -b minha-alteracao`;
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Faça as alterações necessárias no código ou na documentação;
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Faça *commit* das suas alterações: `git commit -m 'feat: Minha nova feature'`;
 
-### Code Splitting
+- Faça *push* para a sua *branch*: `git push origin minha-alteracao`;
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- Agora é só abrir a sua *pull request* no repositório que você fez o *fork*;
 
-### Analyzing the Bundle Size
+Depois que o *merge* da sua *pull request* for feito, você pode deletar a sua *branch*.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### :open_file_folder: API utilizada no projeto
 
-### Making a Progressive Web App
+- [Covid19 Brazil API](https://covid19-brazil-api.now.sh/) por Arthur Ribeiro
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### :memo: Licença
 
-### Advanced Configuration
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+---
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Feito com ☕ por Felipe Ferreira
