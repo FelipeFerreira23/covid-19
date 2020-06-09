@@ -4,7 +4,9 @@
 
 Lista o número de casos de COVID-19 no Brasil de acordo com a OMS e também faz a listagem de casos por todos os estados brasileiros.
 
-<p align="center">![](/src/assets/screenshot.png)</p>
+<p align="center">
+![](/src/assets/screenshot.png)
+</p>
 
 > **Objetivo**: Praticar o conhecimento em ReactJS consumindo informações de API externa
 
