@@ -1,10 +1,10 @@
 <h1  align="center">🔰 COVID-19 Brasil</h1>
 
-<p  align="center">Projeto <strong>COVID-19 Brasil 😷</strong></p>
+<p align="center">Projeto <strong>COVID-19 Brasil 😷</strong></p>
 
 Lista o número de casos de COVID-19 no Brasil de acordo com a OMS e também faz a listagem de casos por todos os estados brasileiros.
 
-![](/src/assets/screenshot.png)
+<div align="center">![Image](/src/assets/screenshot.png)</div>
 
 > **Objetivo**: Praticar o conhecimento em ReactJS consumindo informações de API externa
 
